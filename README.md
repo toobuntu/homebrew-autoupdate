@@ -89,7 +89,7 @@ over repeated runs).
 <!-- HELP-COMMAND-OUTPUT:START -->
 
 ```help
-From tap: domt4/autoupdate
+From tap: toobuntu/autoupdate
 Usage: brew autoupdate subcommand [options]
 
 An easy, convenient way to automatically update Homebrew.
@@ -147,7 +147,7 @@ Subcommands:
   -v, --verbose                    Make some output more verbose.
   -h, --help                       Show this message.
 
-From tap: domt4/autoupdate
+From tap: toobuntu/autoupdate
 Usage: brew autoupdate start [interval] [options]:
     Start autoupdating in the background. The interval defaults to 24 hours and
 accepts seconds or a suffix such as 30m, 12h, or 1d, or a 24-hour clock
@@ -176,7 +176,7 @@ time such as 00:00 to run daily at that specific time.
       --notify-on-error            Notify only when an autoupdate run fails.
       --no-notify                  Disable autoupdate notifications.
 
-From tap: domt4/autoupdate
+From tap: toobuntu/autoupdate
 Usage: brew autoupdate logs [options]:
     Show output from autoupdate runs.
 
